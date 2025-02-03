@@ -1,4 +1,4 @@
-# Contact Book - Patient Management
+# This is CS50! - Project Phonebook
 
 This project is a simple contact book application for managing patient information, such as name, phone number, email, prescribed medications, and diseases. The data is stored in a JSON file, ensuring persistence and ease of manipulation.
 
