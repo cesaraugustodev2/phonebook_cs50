@@ -1,0 +1,16 @@
+{
+    "yulia": {
+        "name": "Yulia",
+        "phone": "+1-456-345-123",
+        "email": "yulia@harvard.com",
+        "medicine": "Vitamin D",
+        "disease": "tuberculosis"
+    },
+    "maria": {
+        "name": "Maria",
+        "phone": "+1-345-654-752",
+        "email": "maria@harvard.com",
+        "medicine": "Amoxillin",
+        "disease": "pneumonia"
+    }
+}
