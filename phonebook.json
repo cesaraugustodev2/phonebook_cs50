@@ -20,11 +20,18 @@
         "medicine": "Ibuprofen",
         "disease": "Headache"
     },
-    "A": {
+    "a": {
         "name": "A",
         "phone": "a",
         "email": "123@harvard.com",
         "medicine": "cd /home/ubuntu/phonebook_cs50",
         "disease": "/usr/local/bin/python /home/ubuntu/phonebook_cs50/main.py"
+    },
+    "A": {
+        "name": "A",
+        "phone": "a",
+        "email": "cesar@harvard.com",
+        "medicine": "dizepan",
+        "disease": "a"
     }
 }

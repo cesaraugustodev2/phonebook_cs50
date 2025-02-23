@@ -22,7 +22,7 @@ def add_entry(phonebook, filename):
          if "@harvard.com" in new_email:
             break  #Only Accept Harvard.com email addresses
          else:
-          print("email address not allowed, try again: " + new_email)
+          print(f"email address '{new_email}' not allowed, try again: ")
         new_medicine = input("Enter medicine name: ")
         new_disease = input("Enter disease name: ")
         phonebook[new_entry] = {"name": new_entry, "phone": new_phone, "email": new_email,"medicine":new_medicine,"disease":new_disease}
