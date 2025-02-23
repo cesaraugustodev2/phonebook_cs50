@@ -17,6 +17,12 @@ def add_entry(phonebook, filename):
         new_entry = input("Enter a New patient name: ").capitalize()
         new_phone = input("Enter phone number: ")
         new_email = input("Enter email address: ")
+        while True:
+            if  "@harvard.com"  in phonebook:
+             continue
+            else:
+              print("E-mail not allowed: " + new_email)
+              break
         new_medicine = input("Enter medicine name: ")
         new_disease = input("Enter disease name: ")
         phonebook[new_entry] = {"name": new_entry, "phone": new_phone, "email": new_email,"medicine":new_medicine,"disease":new_disease}
