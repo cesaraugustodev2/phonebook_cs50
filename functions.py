@@ -18,11 +18,11 @@ def add_entry(phonebook, filename):
         new_phone = input("Enter phone number: ")
         new_email = input("Enter email address: ")
         while True:
-            if  "@harvard.com"  in new_email:
-             continue
-            else:
-              print("E-mail not allowed: " + new_email)
-              break
+         new_email = input("Enter email address: ")
+         if "@harvard.com" in new_email:
+            break  # Sai do loop se o e-mail for aceito
+         else:
+          print("E-mail não permitido: " + new_email)
         new_medicine = input("Enter medicine name: ")
         new_disease = input("Enter disease name: ")
         phonebook[new_entry] = {"name": new_entry, "phone": new_phone, "email": new_email,"medicine":new_medicine,"disease":new_disease}

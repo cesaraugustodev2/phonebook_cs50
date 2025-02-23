@@ -13,11 +13,18 @@
         "medicine": "Amoxillin",
         "disease": "pneumonia"
     },
-    "Cesar": {
+    "cesar": {
         "name": "Cesar",
         "phone": "+1-234-675-890",
         "email": "cas@cas.com",
         "medicine": "Ibuprofen",
         "disease": "Headache"
+    },
+    "A": {
+        "name": "A",
+        "phone": "a",
+        "email": "123@harvard.com",
+        "medicine": "cd /home/ubuntu/phonebook_cs50",
+        "disease": "/usr/local/bin/python /home/ubuntu/phonebook_cs50/main.py"
     }
 }
