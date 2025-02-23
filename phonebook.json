@@ -12,5 +12,12 @@
         "email": "maria@harvard.com",
         "medicine": "Amoxillin",
         "disease": "pneumonia"
+    },
+    "Cesar": {
+        "name": "Cesar",
+        "phone": "+1-234-675-890",
+        "email": "cas@cas.com",
+        "medicine": "Ibuprofen",
+        "disease": "Headache"
     }
 }
