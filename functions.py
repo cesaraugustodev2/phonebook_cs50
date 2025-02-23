@@ -71,3 +71,5 @@ def main_menu(phonebook, filename):
         else:
             print("Invalid Option. Try Again!")
 
+def other_function():
+    print("Other Function Executed!")
