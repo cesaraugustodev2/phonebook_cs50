@@ -18,7 +18,7 @@ def add_entry(phonebook, filename):
         new_phone = input("Enter phone number: ")
         new_email = input("Enter email address: ")
         while True:
-         new_email = input("Enter email address: ")
+         new_email = input("Enter email address, only Harvard.com is allowed: ")
          if "@harvard.com" in new_email:
             break  # Sai do loop se o e-mail for aceito
          else:
