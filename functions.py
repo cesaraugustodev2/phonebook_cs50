@@ -20,9 +20,9 @@ def add_entry(phonebook, filename):
         while True:
          new_email = input("Enter email address, only Harvard.com is allowed: ")
          if "@harvard.com" in new_email:
-            break  # Sai do loop se o e-mail for aceito
+            break  #Only Accept Harvard.com email addresses
          else:
-          print("E-mail não permitido: " + new_email)
+          print("email address not allowed, try again: " + new_email)
         new_medicine = input("Enter medicine name: ")
         new_disease = input("Enter disease name: ")
         phonebook[new_entry] = {"name": new_entry, "phone": new_phone, "email": new_email,"medicine":new_medicine,"disease":new_disease}
